@@ -17,7 +17,7 @@ def print_first_directors_movie_titles
   movie_titles = ""
   while index < directors_database.length do
     directors_database[0][:movies][index][:title]
-    binding.pry
+    # binding.pry
       # if (directors_database[0][:movies][index][:title] == nil)
       #   return "not found"
       index += 1
