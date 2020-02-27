@@ -22,7 +22,7 @@ def print_first_directors_movie_titles
       #   return "not found"
     index += 1
   end
-  movie_titles
+  puts movie_titles
 end
   
   
